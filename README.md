@@ -14,7 +14,6 @@ Ethical Consumer is an AI infused backend project that provides detailed insight
 This project is a work in progress and currently in the early stages of development. The backend architecture is being developed and tested, with plans to implement a range of AI techniques to enhance the functionality and accuracy of the information provided. The goal is to continue exploring concepts of AI and eventually build the frontend. 
 
 #Tech Stack & AI 
-The backend leverages several AI tools and techniques to enhance the quality and relevance 
 - Large Language Models (LLMs): generate structured responses and summaries
 - APIs: fetch real-time data on ethical ratings, sustainability scores, and brand controversies
 - Retrieval-Augmented Generation (RAG): enhanced data retrieval and integration with LLMs
