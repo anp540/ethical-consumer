@@ -3,7 +3,6 @@ from llm.llm_handler import fetch_brand_origin
 from utils.response_formatter import format_origin_response
 
 app = Flask(__name__)
-
 @app.route('/brand_origin', methods=['GET'])
 def brand_origin():
     brand_name = request.args.get('brand')
