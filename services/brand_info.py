@@ -16,3 +16,11 @@ def get_brand_origin(brand_name):
     except Exception as e:
         print(f"Error fetching brand origin: {e}")
         return None
+    
+def get_sustainability_rating(brand_name):
+    sustainability_data = {
+        "Gucci": "Medium: Made strides in sustainable materials but uses animal-derived products.",
+        "Louis Vuitton": "Low: Minimal transparency in environmental practices.",
+        "Bottega Veneta": "High: Focuses on craftsmanship and sustainable leather sourcing."
+    }
+    return sustainability_data.get(brand_name, "No sustainability data available for this brand.")
