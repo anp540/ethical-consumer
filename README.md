@@ -16,4 +16,5 @@ This project is a work in progress and currently in the early stages of developm
 #Tech Stack & AI 
 - Large Language Models (LLMs): generate structured responses and summaries
 - APIs: fetch real-time data on ethical ratings, sustainability scores, and brand controversies
-- Retrieval-Augmented Generation (RAG): enhanced data retrieval and integration with LLMs
+- Retrieval-Augmented Generation (RAG): enhanced data retrieval integrated with the LLM
+- Streamlit: a basic UI to test the chatbot
